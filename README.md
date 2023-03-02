@@ -1,6 +1,16 @@
-### Hi there 👋, My name is Govind Singh Rajawat
 
+[![](https://visitcount.itsvg.in/api?id=govindrajawat&icon=9&color=7)](https://visitcount.itsvg.in)
+---
 
+[![MasterHead](https://user-images.githubusercontent.com/53086504/222387656-a58cb64f-74cb-48f1-98d6-e7978ec3b864.png)](https://github.com/govindrajawat)
+
+<h4 align = "center" >
+ <!-- download cv button -->
+<a href="https://github.com/govindrajawat/govindrajawat/files/10869811/resume.pdf">
+<img src="https://img.shields.io/badge/Download%20CV-Govind%20Singh%20-blue" />
+</a>
+</h4>
+<h1 align = "center" >Hi, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="40" height="40"> I'm Govind Singh Rajawat </h1>
 # 💫 About Me:
 🔭 I’m currently learning Full Stack Web Development<br>💬 Ask me about Python
 
@@ -19,5 +29,4 @@
 ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=gruvbox)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=govindrajawat&icon=9&color=7)](https://visitcount.itsvg.in)
 
