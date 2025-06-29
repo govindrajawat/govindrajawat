@@ -1,7 +1,36 @@
-<h2 align="left">Hi 👋! My name is Govind Singh Rajawat and I'm a DevOps Engineer, from India</h2>
+<table width="100%">
+  <tr>
+    <td align="left" valign="middle" width="60%">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9B59B6&center=false&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B!+I'm+Govind+Singh+Rajawat;DevOps+Engineer+from+India;Cloud+%7C+CI%2FCD+%7C+Automation+%7C+Security" alt="Typing SVG" />
+      <br>
+      <p>
+        <a href="https://linkedin.com/in/govindrajawat" target="_blank">
+          <img src="https://img.shields.io/badge/LinkedIn-8e44ad?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        </a>
+        <a href="mailto:govindrajawat260398@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-9B59B6?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+        </a>
+        <a href="https://github.com/govindrajawat">
+          <img src="https://img.shields.io/badge/GitHub-6c3483?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+        </a>
+        <img src="https://komarev.com/ghpvc/?username=govindrajawat&style=for-the-badge&color=9B59B6" alt="Profile views"/>
+      </p>
+      <blockquote>
+        <b>🌟 Always learning, always building. Open to collaboration and DevOps consulting opportunities.</b>
+      </blockquote>
+    </td>
+    <td align="right" valign="middle" width="40%">
+      <img src="https://github.com/user-attachments/assets/9404f9e4-4e18-486a-a43c-59adff2f044c" alt="banner" height="200" style="max-width:350px;"/>
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/affaed30-e4f4-4970-913a-c54290d9a315" alt="banner" />
+  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20K8s-8e44ad?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Cloud"/>
+  <img src="https://img.shields.io/badge/CI%2FCD-Jenkins%20%7C%20GitHub%20Actions-9B59B6?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD"/>
+  <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%7C%20Grafana-6c3483?style=for-the-badge&logo=prometheus&logoColor=white" alt="Monitoring"/>
+  <img src="https://img.shields.io/badge/Scripting-Python%20%7C%20Bash-8e44ad?style=for-the-badge&logo=python&logoColor=white" alt="Scripting"/>
+  <img src="https://img.shields.io/badge/Linux-Love-9B59B6?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
 </p>
 
 ###
@@ -45,8 +74,8 @@
   <a href="https://linkedin.com/in/govindrajawat">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
   </a>
-  <a href="mailto:rajawatgovind13@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  <a href="mailto:govindrajawat260398@gmail.com">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
   </a>
   <a href="https://github.com/govindrajawat">
     <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=100000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"  />
@@ -230,7 +259,7 @@ Interested in working together? I'm always open to:
   <a href="https://linkedin.com/in/govindrajawat">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="LinkedIn" />
   </a>
-  <a href="mailto:rajawatgovind13@gmail.com">
+  <a href="mailto:govindrajawat260398@gmail.com">
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
   </a>
   <a href="https://github.com/govindrajawat">
@@ -241,4 +270,4 @@ Interested in working together? I'm always open to:
 > *"Automation is not about replacing people; it's about empowering them to do more."*  
 <p align="center"><i>Always learning, always building. Open to collaboration and DevOps consulting opportunities.</i></p>
 
-<p align="center">© 2025 Govind Singh Rajawat</p> 
+<p align="center">© 2025 Govind Singh Rajawat</p>
