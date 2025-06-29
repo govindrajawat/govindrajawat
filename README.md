@@ -1,7 +1,7 @@
 <h2 align="left">Hi 👋! My name is Govind Singh Rajawat and I'm a DevOps Engineer, from India</h2>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9404f9e4-4e18-486a-a43c-59adff2f044c" alt="banner" />
+  <img src="https://github.com/user-attachments/assets/affaed30-e4f4-4970-913a-c54290d9a315" alt="banner" />
 </p>
 
 ###
