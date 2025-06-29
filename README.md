@@ -14,7 +14,7 @@
   <a href="https://github.com/govindrajawat/govindrajawat/files/10869811/resume.pdf">
     <img src="https://img.shields.io/badge/Download_CV-Govind_Singh-blue?style=for-the-badge" alt="Download Resume"/>
   </a>
-  <a href="mailto:rajawatgovind13@gmail.com">
+  <a href="mailto:govindrajawat260398260398@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
@@ -25,12 +25,21 @@
 
 I'm a **DevOps Engineer** with expertise in building robust, scalable, and secure cloud infrastructures. My passion lies in:
 
-- Automating everything from CI/CD pipelines to infrastructure provisioning
-- Implementing Kubernetes solutions for container orchestration
-- Ensuring system reliability through comprehensive monitoring
-- Bridging the gap between development and operations
+- Automating CI/CD pipelines and infrastructure as code
+- Designing Kubernetes-based microservices platforms
+- Ensuring system availability through proactive monitoring
+- Bridging the gap between Dev and Ops for faster delivery cycles
 
-Currently expanding my expertise into **Full Stack Development** to become a more versatile engineer.
+Currently exploring **Full Stack Development** to strengthen product delivery pipelines.
+
+---
+
+## 🎓 Certifications
+
+- ✅ **AZ-900: Microsoft Azure Fundamentals**  
+- ✅ **RHCSA: Red Hat Certified System Administrator**  
+- ✅ **CompTIA ITF+**  
+- 🧪 Working toward **AZ-104: Azure Administrator Associate**
 
 ---
 
@@ -61,16 +70,14 @@ Currently expanding my expertise into **Full Stack Development** to become a mor
 
 ---
 
-## 📊 GitHub Stats
+## 📈 GitHub Stats
 
 <div align="center">
-  
-  ![Govind's GitHub stats](https://github-readme-stats.vercel.app/api?username=govindrajawat&show_icons=true&theme=radical)
-  
-  ![GitHub Streak](https://streak-stats.demolab.com?user=govindrajawat&theme=radical)
-  
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=govindrajawat&layout=compact&theme=radical)
-
+  <img src="https://github-readme-stats.vercel.app/api?username=govindrajawat&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <br />
+  <img src="https://streak-stats.demolab.com?user=govindrajawat&theme=radical" alt="GitHub Streak" />
+  <br />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=govindrajawat&layout=compact&theme=radical" alt="Top Languages" />
 </div>
 
 ---
@@ -86,33 +93,57 @@ Currently expanding my expertise into **Full Stack Development** to become a mor
 ## 💼 Featured Projects
 
 ### **Infrastructure as Code**
-- [Terraform Azure Modules](https://github.com/govindrajawat/terraform-azure-modules) - Reusable modules for Azure infrastructure
-- [AWS EKS Blueprints](https://github.com/govindrajawat/aws-eks-blueprints) - Production-ready Kubernetes clusters on AWS
+- [Terraform Azure Modules](https://github.com/govindrajawat/terraform-azure-modules) – Modular Terraform templates for Azure
+- [AWS EKS Blueprints](https://github.com/govindrajawat/aws-eks-blueprints) – Production-ready Kubernetes on AWS
 
-### **CI/CD Solutions**
-- [GitHub Actions Templates](https://github.com/govindrajawat/gh-actions-templates) - Multi-language CI/CD pipelines
-- [Jenkins Shared Library](https://github.com/govindrajawat/jenkins-shared-lib) - Reusable pipeline components
+### **CI/CD Pipelines**
+- [GitHub Actions Templates](https://github.com/govindrajawat/awesome-ci-cd-templates) – CI/CD workflows for multiple tech stacks
+- [Jenkins Shared Library](https://github.com/govindrajawat/jenkins-shared-lib) – DRY pipelines using shared Groovy code
 
 ### **Monitoring & Security**
-- [K8s Monitoring Stack](https://github.com/govindrajawat/k8s-monitoring) - Prometheus+Grafana+Alertmanager
-- [Security Hardening Guide](https://github.com/govindrajawat/security-hardening) - Production server best practices
+- [Kubernetes Monitoring Stack](https://github.com/govindrajawat/k8s-monitoring) – Prometheus, Grafana, Alertmanager setup
+- [Security Hardening Guide](https://github.com/govindrajawat/security-hardening) – VAPT-based server hardening best practices
+
+---
+
+## 🌐 Tools & Platforms
+
+- Linux, Ubuntu Server, Windows Server
+- Git, GitHub, Bitbucket, GitLab
+- Visual Studio Code, IntelliJ, Azure DevOps
+- Docker Compose, Portainer, Lens
+- Uptime Kuma, Postman, cURL, Nmap
+
+---
+
+## 🧠 Soft Skills
+
+- ✅ Problem-solving under pressure  
+- ✅ Clear communication across teams  
+- ✅ Agile methodology & sprint culture  
+- ✅ Quick learner & documentation-focused  
+- ✅ Team player with mentorship mindset
+
+---
+
+## 🤝 Open Source Contributions
+
+- [Jammu CMS Dockerization](https://github.com/govindrajawat/jammu-cms) – Dockerizing legacy apps with secure Nginx reverse proxy
+- [Linux Server Hardening Scripts](https://github.com/govindrajawat/linux-hardening) – BASH scripts for SSH, fail2ban, firewall, TLS
 
 ---
 
 ## 📫 Let's Connect
+
 <p align="center">
-  <a href="https://linkedin.com/in/govindrajawat">
-    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:govindrajawat260398@gmail.com">
-    <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email"/>
-  </a>
+  <a href="https://linkedin.com/in/govindrajawat"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/></a>
+  <a href="mailto:govindrajawat260398260398@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email"/></a>
+  <a href="https://github.com/govindrajawat"><img src="https://img.icons8.com/ios-filled/48/000000/github.png" alt="GitHub"/></a>
 </p>
 
 ---
 
 <p align="center">
-  <i>Open to collaborations and new opportunities!</i>
-  <br>
-  © 2025 Govind Singh Rajawat • DevOps Engineer
+  <i>Always open to meaningful collaborations and challenging opportunities.</i><br>
+  <b>© 2025 Govind Singh Rajawat • DevOps Engineer</b>
 </p>
