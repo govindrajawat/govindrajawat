@@ -180,7 +180,7 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | **[Terraform Azure Modules](https://github.com/govindrajawat/terraform-azure-modules)** | Modular Infrastructure-as-Code for Azure deployments | Terraform, Azure, ARM |
-| **[CI/CD Templates](https://github.com/govindrajawat/gh-actions-templates)** | Reusable GitHub Actions workflows | GitHub Actions, YAML |
+| **[CI/CD Templates](https://github.com/govindrajawat/awesome-ci-cd-templates)** | Reusable GitHub Actions workflows | GitHub Actions, YAML |
 | **[K8s Monitoring Stack](https://github.com/govindrajawat/k8s-monitoring)** | Prometheus and Grafana for Kubernetes | Kubernetes, Prometheus, Grafana |
 | **[Security Hardening](https://github.com/govindrajawat/security-hardening)** | VAPT-based scripts for securing servers | Bash, Security Tools |
 
