@@ -1,7 +1,7 @@
 <table width="100%">
   <tr>
     <td align="left" valign="middle" width="60%">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9B59B6&center=false&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B!+I'm+Govind+Singh+Rajawat;DevOps+Engineer+from+India;Cloud+%7C+CI%2FCD+%7C+Automation+%7C+Security" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=9B59B6&center=false&vCenter=true&width=500&lines=Hi+%F0%9F%91%8B!+I'm+Govind+Rajawat;DevOps+Engineer+from+India;Cloud+%7C+CI%2FCD+%7C+Automation+%7C+Security" alt="Typing SVG" />
       <br>
       <p>
         <a href="https://linkedin.com/in/govindrajawat" target="_blank">
@@ -33,60 +33,55 @@
   <img src="https://img.shields.io/badge/Linux-Love-9B59B6?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
 </p>
 
-<table width="100%">
-  <tr>
-    <td align="left" valign="middle" width="60%">    
+###
+
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=govindrajawat&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=govindrajawat&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="150" alt="languages graph"  />
 </div>
+
+<table width="100%">
+  <tr>
+    <td align="left" valign="middle" width="70%">
+      <div>
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" height="30" alt="aws logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" height="30" alt="azure logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="30" alt="docker logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" height="30" alt="kubernetes logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" height="30" alt="terraform logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" height="30" alt="jenkins logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="30" alt="python logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" height="30" alt="bash logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="30" alt="linux logo" />
+        <img width="12" />
+        <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" height="30" alt="nginx logo" />
+      </div>
+      <br>
+      <div>
+        <a href="https://linkedin.com/in/govindrajawat">
+          <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo" />
+        </a>
+        <a href="mailto:govindrajawat260398@gmail.com">
+          <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
+        </a>
+        <a href="https://github.com/govindrajawat">
+          <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=100000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo" />
+        </a>
+      </div>
     </td>
-    <td align="right" valign="middle" width="40%">
-<img src="https://github.com/user-attachments/assets/ad4bd382-73f0-4d0f-aca9-0b8ddad5ddfd" alt="logo" align="right" height="80" style="max-width:150px;" />
+    <td align="right" valign="middle" width="30%">
+      <img src="https://github.com/user-attachments/assets/ad4bd382-73f0-4d0f-aca9-0b8ddad5ddfd" alt="banner" height="200" style="max-width:350px;" />
     </td>
   </tr>
 </table>
-
-
-###
-
-<div align="left">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" height="30" alt="aws logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" height="30" alt="azure logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" height="30" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" height="30" alt="kubernetes logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" height="30" alt="terraform logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" height="30" alt="jenkins logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" height="30" alt="bash logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" height="30" alt="nginx logo"  />
-</div>
-
-###
-
-<div align="left">
-  <a href="https://linkedin.com/in/govindrajawat">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-  </a>
-  <a href="mailto:govindrajawat260398@gmail.com">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="Gmail" />
-  </a>
-  <a href="https://github.com/govindrajawat">
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&label=&color=100000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="github logo"  />
-  </a>
-</div>
-
-###
 
 <br clear="both">
 
