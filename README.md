@@ -33,16 +33,20 @@
   <img src="https://img.shields.io/badge/Linux-Love-9B59B6?style=for-the-badge&logo=linux&logoColor=white" alt="Linux"/>
 </p>
 
-###
-
+<table width="100%">
+  <tr>
+    <td align="left" valign="middle" width="60%">    
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=govindrajawat&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=radical&locale=en&hide_border=false" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=govindrajawat&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="150" alt="languages graph"  />
 </div>
-
-###
-
+    </td>
+    <td align="right" valign="middle" width="40%">
 <img src="https://github.com/user-attachments/assets/ad4bd382-73f0-4d0f-aca9-0b8ddad5ddfd" alt="logo" align="right" height="80" style="max-width:150px;" />
+    </td>
+  </tr>
+</table>
+
 
 ###
 
