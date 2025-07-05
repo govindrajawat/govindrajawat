@@ -108,7 +108,7 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 
 ## 🛠️ Tech Stack
 
-<img align="right" height="80" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
+<img align="right" height="120" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif">
 
 ### Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -139,7 +139,7 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 
 ## 🔥 Now
 
-<img align="left" height="100" src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" alt="rocket gif" />
+<img align="left" height="100" src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" alt="rocket gif">
 
 - 🚀 Building new CI/CD templates for multi-cloud
 - 📦 Exploring container security best practices
