@@ -108,9 +108,7 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 
 ## 🛠️ Tech Stack
 
-<table>
-  <tr>
-    <td valign="top" width="70%">
+<img align="right" height="80" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
 
 ### Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -136,12 +134,6 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-    </td>
-    <td align="right" valign="middle" width="30%">
-      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
-    </td>
-  </tr>
-</table>
 
 ━━✦❘༻༺❘✦━━
 
@@ -188,7 +180,6 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
-| **[Kubernetes WAF](https://github.com/govindrajawat/k8s-waf)** | Production-grade Web Application Firewall for Kubernetes with OWASP CRS 3.3 | Kubernetes, NGINX, ModSecurity, Helm |
 | **[Terraform Azure Modules](https://github.com/govindrajawat/terraform-azure-modules)** | Modular Infrastructure-as-Code for Azure deployments | Terraform, Azure, ARM |
 | **[CI/CD Templates](https://github.com/govindrajawat/awesome-ci-cd-templates)** | Reusable GitHub Actions workflows | GitHub Actions, YAML |
 | **[K8s Monitoring Stack](https://github.com/govindrajawat/k8s-monitoring)** | Prometheus and Grafana for Kubernetes | Kubernetes, Prometheus, Grafana |
