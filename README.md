@@ -91,7 +91,7 @@
 
 ## 🚀 About Me
 
-<img align="right" height="180" src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" alt="devops gif" />
+<img align="right" height="200" src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" alt="devops gif" />
 
 I'm a passionate DevOps Engineer dedicated to building scalable, secure, and automated cloud infrastructure. I specialize in optimizing CI/CD pipelines, enhancing system reliability, and implementing infrastructure-as-code solutions.
 
@@ -180,6 +180,7 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
+| **[Kubernetes WAF](https://github.com/govindrajawat/k8s-waf)** | Production-grade Web Application Firewall for Kubernetes with OWASP CRS 3.3 | Kubernetes, NGINX, ModSecurity, Helm |
 | **[Terraform Azure Modules](https://github.com/govindrajawat/terraform-azure-modules)** | Modular Infrastructure-as-Code for Azure deployments | Terraform, Azure, ARM |
 | **[CI/CD Templates](https://github.com/govindrajawat/awesome-ci-cd-templates)** | Reusable GitHub Actions workflows | GitHub Actions, YAML |
 | **[K8s Monitoring Stack](https://github.com/govindrajawat/k8s-monitoring)** | Prometheus and Grafana for Kubernetes | Kubernetes, Prometheus, Grafana |
