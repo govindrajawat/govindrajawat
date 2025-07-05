@@ -40,6 +40,8 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=govindrajawat&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=radical&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
+###
+
 <table width="100%">
   <tr>
     <td align="left" valign="middle" width="70%">
@@ -85,7 +87,7 @@
 
 <br clear="both">
 
----
+━━✦❘༻༺❘✦━━
 
 ## 🚀 About Me
 
@@ -106,7 +108,9 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 
 ## 🛠️ Tech Stack
 
-<img align="right" height="120" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
+<table>
+  <tr>
+    <td valign="top" width="70%">
 
 ### Cloud & Infrastructure
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -132,6 +136,12 @@ I'm a passionate DevOps Engineer dedicated to building scalable, secure, and aut
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+    </td>
+    <td align="right" valign="middle" width="30%">
+      <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
+    </td>
+  </tr>
+</table>
 
 ━━✦❘༻༺❘✦━━
 
