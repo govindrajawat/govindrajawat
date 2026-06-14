@@ -1,8 +1,6 @@
 name: Generate GitHub Trophies
 
 on:
-  schedule:
-    - cron: "0 6 * * *"    # runs daily at 06:00 UTC
   workflow_dispatch:
 
 jobs:
@@ -17,15 +15,127 @@ jobs:
         with:
           ref: output
 
-      - name: Generate trophies SVG
-        uses: nicedoc/trophy-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          username: govindrajawat
-          theme: radical
-          no-frame: true
-          column: 6
-          output-path: trophies.svg
+      - name: Fetch GitHub stats and build trophies SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch user stats from GitHub API
+          USER=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            https://api.github.com/users/govindrajawat)
+
+          REPOS=$(echo $USER | python3 -c "import sys,json; print(json.load(sys.stdin)['public_repos'])")
+          FOLLOWERS=$(echo $USER | python3 -c "import sys,json; print(json.load(sys.stdin)['followers'])")
+          STARS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/govindrajawat/repos?per_page=100" | \
+            python3 -c "import sys,json; print(sum(r['stargazers_count'] for r in json.load(sys.stdin)))")
+          COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/search/commits?q=author:govindrajawat" \
+            -H "Accept: application/vnd.github.cloak-preview" | \
+            python3 -c "import sys,json; print(json.load(sys.stdin).get('total_count',0))")
+          PRS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/search/issues?q=type:pr+author:govindrajawat" | \
+            python3 -c "import sys,json; print(json.load(sys.stdin).get('total_count',0))")
+          ISSUES=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/search/issues?q=type:issue+author:govindrajawat" | \
+            python3 -c "import sys,json; print(json.load(sys.stdin).get('total_count',0))")
+
+          python3 << PYEOF
+          import math
+
+          stats = {
+            "Repositories": int("$REPOS"),
+            "Followers":    int("$FOLLOWERS"),
+            "Stars":        int("$STARS"),
+            "Commits":      int("$COMMITS"),
+            "Pull Requests":int("$PRS"),
+            "Issues":       int("$ISSUES"),
+          }
+
+          icons = {
+            "Repositories": "📦",
+            "Followers":    "👥",
+            "Stars":        "⭐",
+            "Commits":      "💻",
+            "Pull Requests":"🔀",
+            "Issues":       "🐛",
+          }
+
+          def get_rank(val, thresholds):
+              labels = ["SSS","SS","S","AAA","AA","A","B","C"]
+              for i, t in enumerate(thresholds):
+                  if val >= t:
+                      return labels[i]
+              return "C"
+
+          thresholds = {
+            "Repositories": [100,50,30,20,10,5,2],
+            "Followers":    [1000,500,200,100,50,20,10],
+            "Stars":        [500,200,100,50,20,10,5],
+            "Commits":      [5000,2000,1000,500,200,100,50],
+            "Pull Requests":[200,100,50,20,10,5,2],
+            "Issues":       [200,100,50,20,10,5,2],
+          }
+
+          rank_colors = {
+            "SSS":"#ff6b6b","SS":"#ff9f43","S":"#ffd32a",
+            "AAA":"#c44dff","AA":"#a29bfe","A":"#74b9ff",
+            "B":"#55efc4","C":"#b2bec3"
+          }
+
+          cols = 3
+          rows = math.ceil(len(stats) / cols)
+          card_w, card_h = 200, 120
+          pad = 16
+          total_w = cols * card_w + (cols + 1) * pad
+          total_h = rows * card_h + (rows + 1) * pad + 50
+
+          svg = f'''<svg width="{total_w}" height="{total_h}" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#0d1117"/>
+                <stop offset="100%" style="stop-color:#161b22"/>
+              </linearGradient>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#bg)" rx="16"/>
+            <text x="{total_w//2}" y="36" text-anchor="middle"
+              font-family="Segoe UI,sans-serif" font-size="20" font-weight="bold"
+              fill="#9B59B6">🏆 GitHub Trophies</text>
+          '''
+
+          for i, (name, val) in enumerate(stats.items()):
+              col = i % cols
+              row = i // cols
+              x = pad + col * (card_w + pad)
+              y = 50 + pad + row * (card_h + pad)
+              rank = get_rank(val, thresholds[name])
+              color = rank_colors[rank]
+              icon = icons[name]
+
+              svg += f'''
+              <g>
+                <rect x="{x}" y="{y}" width="{card_w}" height="{card_h}"
+                  rx="12" fill="#161b22" stroke="{color}" stroke-width="1.5"/>
+                <text x="{x + card_w//2}" y="{y + 28}" text-anchor="middle"
+                  font-size="22">{icon}</text>
+                <text x="{x + card_w//2}" y="{y + 52}" text-anchor="middle"
+                  font-family="Segoe UI,sans-serif" font-size="11" fill="#8b949e">{name}</text>
+                <text x="{x + card_w//2}" y="{y + 76}" text-anchor="middle"
+                  font-family="Segoe UI,sans-serif" font-size="22" font-weight="bold"
+                  fill="white">{val}</text>
+                <rect x="{x + card_w//2 - 22}" y="{y + 86}" width="44" height="20"
+                  rx="6" fill="{color}" opacity="0.2"/>
+                <text x="{x + card_w//2}" y="{y + 100}" text-anchor="middle"
+                  font-family="Segoe UI,sans-serif" font-size="11" font-weight="bold"
+                  fill="{color}">{rank}</text>
+              </g>'''
+
+          svg += "\n</svg>"
+
+          with open("trophies.svg", "w") as f:
+              f.write(svg)
+
+          print("✅ trophies.svg generated")
+          PYEOF
 
       - name: Commit and push
         run: |

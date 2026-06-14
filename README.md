@@ -31,7 +31,7 @@
 
 <!-- Specialty Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Azure%20%7C%20K8s-8e44ad?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="Cloud"/>
+  <img src="https://img.shields.io/badge/Cloud-Azure%20%7C%20K8s%20%7C%20AKS-8e44ad?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Cloud"/>
   <img src="https://img.shields.io/badge/CI%2FCD-Jenkins%20%7C%20GitHub%20Actions-9B59B6?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI/CD"/>
   <img src="https://img.shields.io/badge/Monitoring-Prometheus%20%7C%20Grafana-6c3483?style=for-the-badge&logo=prometheus&logoColor=white" alt="Monitoring"/>
   <img src="https://img.shields.io/badge/Scripting-Python%20%7C%20Bash-8e44ad?style=for-the-badge&logo=python&logoColor=white" alt="Scripting"/>
@@ -44,14 +44,14 @@
 
 <img align="right" height="200" src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" alt="devops gif" />
 
-I'm a passionate **DevOps Engineer** dedicated to building scalable, secure, and automated cloud infrastructure. I specialize in optimizing CI/CD pipelines, enhancing system reliability, and implementing infrastructure-as-code solutions.
+I'm a passionate **DevOps Engineer with 2.5 years of experience** building scalable, secure, and automated infrastructure. I specialize in managing Linux VDS servers, deploying containerized workloads with Docker and Kubernetes, and building CI/CD pipelines with GitHub Actions and Jenkins. Hands-on with Terraform for Azure infrastructure, and experienced administering Kafka, OpenSearch, Elasticsearch, Keycloak, MinIO, PostgreSQL, MongoDB, and Redis.
 
-- 🔧 **CI/CD Pipeline Optimization** — Streamlining deployment processes from days to hours
-- ☁️ **Multi-Cloud Expertise** — Azure, AWS, Kubernetes, and Terraform
-- 🔒 **Security-First Approach** — Hardening production environments with VAPT and WAF
-- 📊 **Observability & Monitoring** — Prometheus, Grafana, and OpenTelemetry
-- 🚀 **Infrastructure as Code** — Terraform, Ansible, and ARM templates
-- 🤖 **GitOps Practitioner** — ArgoCD, Flux, and automated reconciliation
+- 🔧 **CI/CD Pipelines** — GitHub Actions & Jenkins from scratch, multi-env (dev/staging/prod)
+- ☁️ **Azure & Kubernetes** — AKS, ACR, Key Vault, Terraform, self-managed K8s clusters
+- 🔒 **Security-First** — UFW, Fail2Ban, SSH hardening, Trivy image scanning, ModSecurity WAF
+- 📊 **Observability** — Prometheus, Grafana, Alertmanager with custom dashboards
+- 🚀 **Infrastructure as Code** — Terraform (Azure provider), modular IaC, remote state
+- 🖥️ **Linux Server Admin** — Managing 15–30 VDS servers (Contabo), OS patching, SSH
 
 <br clear="right" />
 
@@ -71,13 +71,15 @@ $ cat about.txt
 
 $ cat skills.json
 {
-  "cloud"      : ["AWS", "Azure", "GCP (basics)"],
-  "containers" : ["Docker", "Kubernetes", "Helm"],
-  "iac"        : ["Terraform", "Ansible", "ARM"],
-  "cicd"       : ["Jenkins", "GitHub Actions", "ArgoCD", "Azure DevOps"],
-  "monitoring" : ["Prometheus", "Grafana", "OpenTelemetry"],
-  "scripting"  : ["Python", "Bash", "Go"],
-  "security"   : ["ModSecurity", "OWASP ZAP", "Fail2Ban", "Nmap"]
+  "cloud"      : ["Azure", "AKS", "ACR", "Azure Key Vault", "Azure Blob"],
+  "containers" : ["Docker", "Docker Compose", "Kubernetes", "Helm"],
+  "iac"        : ["Terraform (Azure)", "Modular IaC", "Remote State"],
+  "cicd"       : ["GitHub Actions", "Jenkins", "Bash Automation"],
+  "databases"  : ["PostgreSQL", "MongoDB", "Redis", "OpenSearch", "Elasticsearch", "Kafka"],
+  "auth_store" : ["Keycloak", "MinIO"],
+  "monitoring" : ["Prometheus", "Grafana", "Alertmanager"],
+  "scripting"  : ["Bash", "Python", "YAML"],
+  "security"   : ["UFW", "Fail2Ban", "SSH Hardening", "Trivy", "ModSecurity", "Certbot"]
 }
 
 $ echo "Let's build something amazing together 🚀"
@@ -90,34 +92,38 @@ $ echo "Let's build something amazing together 🚀"
 <img align="right" height="120" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif">
 
 ### ☁️ Cloud & Infrastructure
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![AKS](https://img.shields.io/badge/AKS-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 
-### ⚙️ CI/CD & GitOps
+### ⚙️ CI/CD & Automation
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-326CE5?style=for-the-badge&logo=argo&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D4?style=for-the-badge&logo=azure-devops&logoColor=white)
-![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
 
 ### 💻 Programming & Scripting
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
 
-### 📊 Monitoring, Observability & Security
+### 🗄️ Databases, Messaging & Storage
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![MinIO](https://img.shields.io/badge/MinIO-C72E49?style=for-the-badge&logo=minio&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
+
+### 📊 Monitoring & Security
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Vault](https://img.shields.io/badge/Vault-FFEC6E?style=for-the-badge&logo=vault&logoColor=black)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white)
 
 <br clear="right" />
 
@@ -128,11 +134,11 @@ $ echo "Let's build something amazing together 🚀"
 ```text
 Kubernetes & Docker    ████████████████████░   95%
 CI/CD (Jenkins/GHA)    ███████████████████░░   92%
-Terraform / IaC        ██████████████████░░░   88%
-AWS / Azure            █████████████████░░░░   85%
+Terraform / Azure IaC  ██████████████████░░░   88%
+Linux Server Admin     ██████████████████░░░   88%
 Python / Bash          ████████████████░░░░░   80%
 Prometheus / Grafana   ███████████████░░░░░░   75%
-Go                     ████████████░░░░░░░░░   60%
+Kafka / OpenSearch     ██████████████░░░░░░░   70%
 ```
 
 ---
@@ -182,8 +188,10 @@ Go                     ████████████░░░░░░░
 
 <p align="center">
   <img src="https://img.shields.io/badge/Azure%20Fundamentals-AZ--900-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Fundamentals AZ-900" />
-  <img src="https://img.shields.io/badge/Azure%20Administrator-AZ--104-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Administrator AZ-104" />
+  <img src="https://img.shields.io/badge/AZ--104-Preparing-orange?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Administrator AZ-104 In Progress" />
   <img src="https://img.shields.io/badge/RHCSA-Red%20Hat%20Certified-EE0000?style=for-the-badge&logo=red-hat&logoColor=white" alt="RHCSA" />
+  <img src="https://img.shields.io/badge/CompTIA-ITF%2B-C8202E?style=for-the-badge&logo=comptia&logoColor=white" alt="CompTIA ITF+" />
+  <img src="https://img.shields.io/badge/IBM-Docker%20Foundations-052FAD?style=for-the-badge&logo=ibm&logoColor=white" alt="IBM Docker" />
 </p>
 
 ---
@@ -209,11 +217,10 @@ Go                     ████████████░░░░░░░
 
 <img align="left" height="100" src="https://media.giphy.com/media/26ufnwz3wDUli7GU0/giphy.gif" alt="rocket gif">
 
-- 🚀 Building reusable CI/CD templates for multi-cloud environments
-- 📦 Exploring container security and software supply chain security (SLSA)
-- 🧠 Deep-diving into GitHub Actions advanced workflows and reusable actions
-- 📝 Writing blog posts on Kubernetes monitoring and GitOps patterns
-- 🔐 Learning HashiCorp Vault for secrets management
+- 📘 Preparing for **Microsoft AZ-104** (Azure Administrator)
+- 📦 Exploring container security and software supply chain security (SLSA, Trivy)
+- 🧠 Deep-diving into GitHub Actions reusable workflows and composite actions
+- 📝 Writing blog posts on Kubernetes monitoring and CI/CD best practices
 
 <br clear="left" />
 
@@ -231,14 +238,18 @@ Go                     ████████████░░░░░░░
 
 | Category | Tools |
 |:---------|:------|
-| 🐳 **Containerization** | Docker, Docker Compose, Portainer |
-| ☸️ **Orchestration** | Kubernetes, Helm, Lens, K9s |
-| 🗃️ **Version Control** | Git, GitHub, GitLab, Bitbucket |
-| ⚙️ **CI/CD** | Jenkins, GitHub Actions, Azure DevOps, GitLab CI |
-| 📦 **Artifact Management** | Docker Hub, Azure Container Registry, ECR |
-| 📊 **Monitoring** | Prometheus, Grafana, Uptime Kuma, OpenTelemetry |
-| 🔐 **Security** | Nmap, Fail2Ban, ModSecurity, OWASP ZAP, Vault |
-| 🖥️ **OS / Servers** | Ubuntu Server, CentOS, RHEL, Nginx |
+| 🐳 **Containerization** | Docker, Docker Compose, Multi-Stage Builds |
+| ☸️ **Orchestration** | Kubernetes, AKS, Helm, kubectl, K9s |
+| ☁️ **Azure Services** | AKS, ACR, Key Vault, Blob Storage, Azure Monitor |
+| 🗃️ **Version Control** | Git, GitHub, GitLab |
+| ⚙️ **CI/CD** | Jenkins, GitHub Actions |
+| 🗄️ **Databases** | PostgreSQL, MongoDB, Redis |
+| 📨 **Messaging & Search** | Apache Kafka, OpenSearch, Elasticsearch |
+| 🔑 **Auth & Storage** | Keycloak, MinIO |
+| 📊 **Monitoring** | Prometheus, Grafana, Alertmanager, Uptime Kuma |
+| 🔐 **Security** | UFW, iptables, Fail2Ban, SSH Hardening, Trivy, Certbot |
+| 🌐 **Web & Proxy** | Nginx, Traefik, Let's Encrypt |
+| 🖥️ **OS / Servers** | Ubuntu Server, CentOS, RHEL, Contabo VDS |
 
 ---
 
@@ -297,4 +308,4 @@ I'm always open to:
 <!-- Footer Wave -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=9B59B6&height=100&section=footer" />
 
-<p align="center">© 2026 Govind Singh Rajawat &nbsp;•&nbsp; Made with ❤️ and lots of ☕</p>
+<p align="center">Govind Singh Rajawat &nbsp;•&nbsp; Made with ❤️ and lots of ☕</p>

@@ -1,8 +1,6 @@
 name: 3D Contribution Graph
 
 on:
-  schedule:
-    - cron: "0 18 * * *"   # runs daily at 18:00 UTC
   workflow_dispatch:         # allow manual trigger from Actions tab
 
 jobs:
