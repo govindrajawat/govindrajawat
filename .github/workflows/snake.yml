@@ -9,6 +9,8 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     name: Generate contribution snake
+    permissions:
+      contents: write
 
     steps:
       - name: Generate snake (light + dark)

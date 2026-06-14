@@ -165,7 +165,7 @@ Go                     ████████████░░░░░░░
 ## 🌐 3D Contribution Graph
 
 <div align="center">
-  <img src="https://github.com/govindrajawat/govindrajawat/raw/output/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/govindrajawat/govindrajawat/output/profile-night-rainbow.svg" alt="3D Contribution Graph" />
 </div>
 
 ---
@@ -173,7 +173,10 @@ Go                     ████████████░░░░░░░
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=govindrajawat&theme=radical&no-frame=true&margin-w=15&row=2&column=4" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=govindrajawat&theme=radical&no-frame=true&margin-w=15&column=4" alt="GitHub Trophies" />
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=govindrajawat&theme=radical&no-frame=true&margin-w=15&column=4&row=2" alt="GitHub Trophies Row 2" />
 </p>
 
 ---
